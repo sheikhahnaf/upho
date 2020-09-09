@@ -161,7 +161,6 @@ def main():
                               unitcell_ideal,
                               supercell_matrix,
                               primitive_matrix,
-                              primitive_matrix_ideal,
                               factor=factor,
                               star=star,
                               mode=projection,
