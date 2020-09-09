@@ -147,8 +147,8 @@ def main():
 
     #supercell_matrix = settings.get_supercell_matrix()
     supercell_matrix = phlammps.get_supercell_matrix()
-    primitive_matrix_ideal = [[1, 0, 0],[0, 1, 0],[0, 0, 1]]
-    primitive_matrix = [[1, 0, 0],[0, 1, 0],[0, 0, 1]]
+    #primitive_matrix_ideal = [[1, 0, 0],[0, 1, 0],[0, 0, 1]]
+    primitive_matrix = 'auto'
     #primitive_matrix =  phlammps.get_unitcell()
     print("supercell_matrix:")
     print(supercell_matrix)
